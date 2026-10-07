@@ -57,6 +57,15 @@ The repository now contains focused production chapters so the material can be s
 11. [Disaster Recovery and Multi-Cluster](docs/11-disaster-recovery.md)
 12. [Senior Interview and Production Checklist](docs/12-interview-production-checklist.md)
 
+
+## Advanced Deep-Dive Chapters
+
+13. [Broker Request Flow and KRaft Internals](docs/13-broker-request-flow-and-kraft-internals.md)
+14. [Producer Accumulator and Consumer Internals](docs/14-producer-accumulator-and-consumer-internals.md)
+15. [Kafka with Go: Production Patterns](docs/15-go-production-patterns.md)
+16. [High-Volume Kafka: 100K to 1M Events/sec](docs/16-high-volume-100k-1m-events.md)
+17. [Production Configuration Reference](docs/17-production-config-reference.md)
+
 These chapters complement the master reference below. Version-specific Kafka behavior must be checked against the broker/client version actually operated.
 
 ---
