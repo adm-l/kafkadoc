@@ -39,6 +39,26 @@
 29. Production checklist
 30. Glossary
 
+
+## Deep-Dive Handbook
+
+The repository now contains focused production chapters so the material can be studied independently:
+
+1. [Fundamentals and Architecture](docs/01-fundamentals-architecture.md)
+2. [Partitions, Replication, ISR and Failover](docs/02-partitions-replication-failover.md)
+3. [Producer Internals and Reliability](docs/03-producer-internals.md)
+4. [Consumers, Groups and Rebalancing](docs/04-consumers-groups-rebalancing.md)
+5. [Delivery Semantics and Transactions](docs/05-delivery-semantics-transactions.md)
+6. [Storage, Retention and Compaction](docs/06-storage-retention-compaction.md)
+7. [Schemas, Retries, DLQ, Outbox, Inbox and Saga](docs/07-schemas-retries-outbox-saga.md)
+8. [Security, Observability and Performance](docs/08-security-observability-performance.md)
+9. [Go, Kubernetes and Production Operations](docs/09-go-kubernetes-production.md)
+10. [Order and Payment Reference Architecture](docs/10-payment-order-reference.md)
+11. [Disaster Recovery and Multi-Cluster](docs/11-disaster-recovery.md)
+12. [Senior Interview and Production Checklist](docs/12-interview-production-checklist.md)
+
+These chapters complement the master reference below. Version-specific Kafka behavior must be checked against the broker/client version actually operated.
+
 ---
 
 # 1. Fundamentals
